@@ -12,7 +12,7 @@ clear
 THREAD="-j$(grep -c ^processor /proc/cpuinfo)"
 KERNEL="Image"
 DTBIMAGE="dtb"
-export CROSS_COMPILE=${HOME}/tipsy/prebuilts/gcc/linux-x86/aarch64/aarch64-8.0/bin/aarch64-
+export CROSS_COMPILE=${HOME}/Downloads/TC-Q8.0-kryo-aarch/bin/aarch64-QUVNTNM_TOOLCHAIN-linux-gnu-
 DEFCONFIG="angler_defconfig"
 
 # Kernel Details
