@@ -16,7 +16,7 @@ export CROSS_COMPILE=${HOME}/Downloads/TC-Q8.0-kryo-aarch/bin/aarch64-QUVNTNM_TO
 DEFCONFIG="angler_defconfig"
 
 # Kernel Details
-VER="fuckery"
+VER="fuckery-1.0"
 
 # Paths
 KERNEL_DIR=`pwd`
@@ -24,7 +24,7 @@ REPACK_DIR="${HOME}/AnyKernel2"
 PATCH_DIR="${HOME}/AnyKernel2/patch"
 MODULES_DIR="${HOME}/AnyKernel2/modules"
 ZIP_MOVE="${HOME}/fuckery"
-ZIMAGE_DIR="${HOME}/screwd/kernel/huawei/angler/arch/arm64/boot/"
+ZIMAGE_DIR="${HOME}/chopped/arch/arm64/boot"
 
 # Functions
 function clean_all {
